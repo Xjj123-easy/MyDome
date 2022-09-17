@@ -1,0 +1,22 @@
+{
+    "name": "XXUI",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "echarts": "^5.3.3",
+        "vue": "^3.0.4",
+        "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.0.4",
+        "lerna": "^5.5.1",
+        "vite": "^1.0.0-rc.13"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "private": "true"
+}
